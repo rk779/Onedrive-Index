@@ -396,11 +396,11 @@ async function handleRequest(request) {
         const body = JSON.stringify(error);
 
         switch (error.code) {
-            case "ItemNotFound":
-                return new Response(body, {
+            case "itemNotFound":
+                return new Response("404 Not Found", {
                     status: 404,
                     headers: {
-                        'content-type': 'application/json'
+                        'content-type': 'text/html; charset=utf-8'
                     }
                 });
 
