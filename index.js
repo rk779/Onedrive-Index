@@ -446,7 +446,7 @@ function renderHTML(body) {
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>OneDrive Index</title>
-      <link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
       <link href='https://cdn.jsdelivr.net/gh/heymind/OneDrive-Index-Cloudflare-Worker/themes/material.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
       <script type="module" src='https://cdn.jsdelivr.net/gh/heymind/OneDrive-Index-Cloudflare-Worker/script.js'></script>
